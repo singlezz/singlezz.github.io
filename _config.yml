@@ -126,3 +126,7 @@ live2d:
     height: 400
   mobile:
     show: true  #是否在手机进行显示
+	
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed
