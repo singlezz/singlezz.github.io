@@ -106,14 +106,17 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: 
-    https://github.com/singlezz/singlezz.github.io.git,master
-    https://e.coding.net/singlezz/singlezz.coding.me.git,master
+#deploy:
+#  type: git
+#  repo: https://github.com/singlezz/singlezz.github.io.git
+#    #https://e.coding.net/singlezz/singlezz.coding.me.git,master
 #  branch: master
   
-  
+deploy:
+  type: git
+  repo:
+      github: https://github.com/singlezz/singlezz.github.io.git,master
+      coding: https://e.coding.net/singlezz/singlezz.coding.me.git,master  
   
 live2d:
   enable: true
