@@ -705,15 +705,7 @@ cnzz_siteid:
 # You can visit https://leancloud.cn to get AppID and AppKey.
 # AppID and AppKey are recommended to be the same as valine's for counter compatibility.
 # Do not enable both `valine.visitor` and `leancloud_visitors`.
-leancloud_visitors:
-  enable: true
-  app_id: rK3s3NB2Y7K1zREnSrXkOYu6-gzGzoHsz
-  app_key: B7tRrH4LpGvobue9hz54rSNT
-  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
-  # If you don't care about security in leancloud counter and just want to use it directly
-  # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-  security: true
-  betterPerformance: true
+
 
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
@@ -727,7 +719,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
@@ -1046,3 +1038,27 @@ tencent_analytics: 66508840
 baidushare: true
 # JiaThis 分享服务
 jiathis: true
+
+
+leancloud_visitors:
+  enable: true
+  app_id: rK3s3NB2Y7K1zREnSrXkOYu6-gzGzoHsz
+  app_key: B7tRrH4LpGvobue9hz54rSNT
+
+# Show PV/UV of the website/page with busuanzi. 不蒜子统计
+# Get more information on http://ibruce.info/2015/04/04/busuanzi/
+#busuanzi_count:
+  # count values only if the other configs are false
+ # enable: true
+  # custom uv span for the whole site
+#  site_uv: true
+ # site_uv_header: <i class="fa fa-user"></i> 访问人数
+#  site_uv_footer: 人次 
+  # # custom pv span for the whole site
+#  site_pv: true
+#  site_pv_header: <i class="fa fa-eye"></i> 总访问量
+#  site_pv_footer: 次 
+  # custom pv span for one page only
+ # page_pv: false
+ # page_pv_header: <i class="fa fa-file-o"></i> 阅读
+ # page_pv_footer: 次 
