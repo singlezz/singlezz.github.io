@@ -116,7 +116,15 @@ deploy:
   type: git
   repo:
       github: https://github.com/singlezz/singlezz.github.io.git,master
-      coding: https://e.coding.net/singlezz/singlezz.coding.me.git,master  
+      gitee: https://gitee.com/lemon_ant/singlezz.git,master
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+#url: https://lemon_ant.gitee.io/singlezz/
+#root: /singlezz/
+#permalink: :year/:month/:day/:title/
+#permalink_defaults: 
+
   
 live2d:
   enable: true
