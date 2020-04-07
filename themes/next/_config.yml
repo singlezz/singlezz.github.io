@@ -48,6 +48,9 @@ favicon:
   ms_browserconfig: /images/favicon/browserconfig.xml
 
 footer:
+    #统计
+  counter: true
+  
   # Specify the date when the site was setup. If not defined, current year will be used.
   since: 2020
 
@@ -259,6 +262,18 @@ post_meta:
     another_day: true
   categories: true
 
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  #字数统计
+  wordcount: true
+  #预览时间
+  min2read: true
+  #总字数,显示在页面底部
+  totalcount: false
+  separated_meta: true
+  
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
@@ -480,11 +495,11 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification:
+google_site_verification: false
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
-bing_site_verification:
+bing_site_verification: false
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru
@@ -492,7 +507,7 @@ yandex_site_verification:
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification:
+baidu_site_verification: true
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: false
@@ -627,20 +642,21 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appid: # Your leancloud application appid
-  appkey: # Your leancloud application appkey
-  notify: false # Mail notifier
-  verify: false # Verification code
-  placeholder: Just go go # Comment box placeholder
-  avatar: mm # Gravatar style
-  guest_info: nick,mail,link # Custom comment header
-  pageSize: 10 # Pagination size
+  enable: true
+  appid: 0DXQpBWFXRPUdLy0krzP1sjQ-9Nh9j0Va
+  appkey: 0mfSJ0v0jAkuUoAkUFcKCWjK
+  notify: true
+  verify: false
+  placeholder: 填入你的建议，请赐教！
+  avatar: mm
+  guest_info: nick,mail,link
+  pageSize: 10
   language: # Language, available values: en, zh-cn
-  visitor: false # Article reading statistic
-  comment_count: true # If false, comment count will only be displayed in post page, not in home page
-  recordIP: false # Whether to record the commenter IP
+  visitor: true
+  comment_count: true
+  recordIP: false
   serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  path: window.location.pathname
   #post_meta_order: 0
 
 # LiveRe comments system
@@ -718,14 +734,23 @@ firestore:
 
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
+# Show PV/UV of the website/page with busuanzi.
+# Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
+  # count values only if the other configs are false
   enable: true
-  total_visitors: true
-  total_visitors_icon: user
-  total_views: true
-  total_views_icon: eye
-  post_views: true
-  post_views_icon: eye
+  # custom uv span for the whole site
+  site_uv: true
+  site_uv_header: <i class="fa fa-user"></i> 访问人数
+  site_uv_footer:
+  # custom pv span for the whole site
+  site_pv: true
+  site_pv_header: <i class="fa fa-eye"></i> 总访问量
+  site_pv_footer:
+  # custom pv span for one page only
+  page_pv: true
+  page_pv_header: <i class="fa fa-eye"></i> 阅读次数
+  page_pv_footer:
 
 
 # ---------------------------------------------------------------
