@@ -116,10 +116,10 @@ theme: next
 deploy:
   type: git
   repo:
-      github: git@github.com:singlezz/singlezz.github.io.git,master
-      gitee: git@gitee.com:surpass_1/singlezz.git,master 
+      github: https://github.com/singlezz/singlezz.github.io.git,master
+      coding: https://e.coding.net/singlezz/singlezz.coding.me.git,master
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'  # gitee: https://gitee.com/surpass_1/singlezz.git,master 
 #url: https://lemon_ant.gitee.io/singlezz/
 #root: /singlezz/
 #permalink: :year/:month/:day/:title/
