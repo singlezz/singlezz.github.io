@@ -1,5 +1,5 @@
 <meta charset="UTF-8">
-<meta name="baidu-site-verification" content="re65Q0xRlX" />
+<meta name="baidu-site-verification" content="JmtKrGTITk" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
 <meta name="generator" content="Hexo {{ hexo_version }}">
