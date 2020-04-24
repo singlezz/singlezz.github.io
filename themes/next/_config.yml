@@ -135,7 +135,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 
 # ---------------------------------------------------------------
@@ -216,7 +216,7 @@ links_settings:
 
 links:
   #Title: http://yoursite.com
-  友情链接: blog.cyspace.yop
+  BeginnerCong: https://blog.cyspace.top/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
