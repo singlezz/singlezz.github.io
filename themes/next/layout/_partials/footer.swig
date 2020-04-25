@@ -9,7 +9,7 @@
     {%- endif %}
   </div>
 {%- endif %}
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <div class="copyright">
   {% set copyright_year = date(null, 'YYYY') %}
   &copy; {% if theme.footer.since and theme.footer.since != copyright_year %}{{ theme.footer.since }} – {% endif %}
@@ -50,17 +50,33 @@
 </div>
 
 {% if theme.footer.counter %}
-    <script async type="text/javascript" src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script async type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 {% endif %}
 
 
-<script async type="text/javascript" src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script async type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
             <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
   
   <div class="powered-by">
     {{- __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}
     {%- if theme.footer.powered.version %} v{{ hexo_version }}{%- endif %}
   </div>
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  {% if config.symbols_count_time.total_symbols %}
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    {% if theme.symbols_count_time.item_text_total %}
+      <span class="post-meta-item-text">{{ __('symbols_count_time.count_total') + __('symbol.colon') }}</span>
+    {% endif %}
+	<span title="{{ __('post.totalcount') }}">
+     {{ totalcount(site, '0,0.0a') }}字 </span>
+    <!--<span title="{{ __('symbols_count_time.count_total') }}">{{symbolsCountTotal(site)}}</span>-->
+  {% endif %}
+
+  
 {%- endif %}
 
 {%- if theme.footer.powered.enable and theme.footer.theme.enable %}
