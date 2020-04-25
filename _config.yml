@@ -12,6 +12,9 @@ author: Surpasser
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
 
 search:
   path: search.xml
