@@ -1,5 +1,6 @@
 ---
 title: First-Paper
+copyright: true
 date: 2020-01-05 15:36:03
 tags: 心情
 categories: 闲聊

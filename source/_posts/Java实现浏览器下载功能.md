@@ -1,5 +1,6 @@
 ---
 title: Java实现浏览器下载功能
+copyright: true
 date: 2020-04-10 09:57:33
 tags: Java
 categories: IO流

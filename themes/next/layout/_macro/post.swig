@@ -227,6 +227,11 @@
       {%- if theme.creative_commons.license and theme.creative_commons.post %}
         {{ partial('_partials/post/post-copyright.swig') }}
       {%- endif %}
+	  <div>
+    {% if not is_index %}
+        {% include 'my-copyright.swig' %}
+    {% endif %}
+</div>
 	<div>
 		{% if not is_index %}
 			{% include 'passage-end-tag.swig' %}

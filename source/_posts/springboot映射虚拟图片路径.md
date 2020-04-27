@@ -1,5 +1,6 @@
 ---
 title: springboot映射虚拟图片路径
+copyright: true
 date: 2020-01-15 15:38:54
 tags: springboot
 categories: Java

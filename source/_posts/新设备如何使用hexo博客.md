@@ -1,5 +1,6 @@
 ---
 title: 新设备如何使用hexo博客
+copyright: true
 date: 2020-03-29 17:06:57
 tags: hexo
 categories: 博客教程

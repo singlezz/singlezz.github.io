@@ -1,5 +1,6 @@
 ---
 title: git-api
+copyright: true
 date: 2020-01-06 22:57:16
 tags: git
 categories: git

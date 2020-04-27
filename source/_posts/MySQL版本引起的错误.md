@@ -1,5 +1,6 @@
 ---
 title: MySQL版本引起的错误
+copyright: true
 date: 2020-04-24 11:22:00
 tags: MySQL
 categories: MySQL

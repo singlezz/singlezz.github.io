@@ -1,5 +1,6 @@
 ---
 title: CentOS 7安装Docker
+copyright: true
 date: 2020-04-24 10:03:16
 tags: Linux_ContOS
 categories: Linux
