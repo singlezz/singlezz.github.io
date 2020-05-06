@@ -1,10 +1,10 @@
 ---
-title: springboot映射虚拟图片路径
+title: SpringBoot映射虚拟图片路径
 copyright: true
 date: 2020-01-15 15:38:54
-tags: springboot
+tags: SpringBoot
 categories: Java
-description: 毕业设计中springboot遇到项目路径无法访问磁盘路径的图片
+description: 毕业设计中SpringBoot遇到项目路径无法访问磁盘路径的图片
 ---
 
 # 前言
