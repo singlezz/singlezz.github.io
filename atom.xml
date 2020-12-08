@@ -128,9 +128,9 @@
     
     <category term="Java" scheme="http://surpass.org.cn/tags/Java/"/>
     
-    <category term="HTML" scheme="http://surpass.org.cn/tags/HTML/"/>
-    
     <category term="爬虫" scheme="http://surpass.org.cn/tags/%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="HTML" scheme="http://surpass.org.cn/tags/HTML/"/>
     
   </entry>
   
@@ -448,9 +448,9 @@
     
     <category term="SpringBoot" scheme="http://surpass.org.cn/tags/SpringBoot/"/>
     
-    <category term="爬虫" scheme="http://surpass.org.cn/tags/%E7%88%AC%E8%99%AB/"/>
-    
     <category term="WebMagic" scheme="http://surpass.org.cn/tags/WebMagic/"/>
+    
+    <category term="爬虫" scheme="http://surpass.org.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
