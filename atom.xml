@@ -6,7 +6,7 @@
   <link href="http://www.surpass.org.cn/atom.xml" rel="self"/>
   
   <link href="http://www.surpass.org.cn/"/>
-  <updated>2020-12-03T12:11:59.597Z</updated>
+  <updated>2020-12-15T09:43:28.866Z</updated>
   <id>http://www.surpass.org.cn/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SpringBoot使用反射对业务代码进行统一处理</title>
+    <link href="http://www.surpass.org.cn/2020/12/15/usingReflection/"/>
+    <id>http://www.surpass.org.cn/2020/12/15/usingReflection/</id>
+    <published>2020-12-15T09:11:23.000Z</published>
+    <updated>2020-12-15T09:43:28.866Z</updated>
+    
+    
+    <summary type="html">如何在SpringBoot使用反射对多个校验接口进行统一</summary>
+    
+    
+    
+    <category term="Java" scheme="http://www.surpass.org.cn/categories/Java/"/>
+    
+    <category term="反射" scheme="http://www.surpass.org.cn/categories/Java/%E5%8F%8D%E5%B0%84/"/>
+    
+    
+    <category term="Java" scheme="http://www.surpass.org.cn/tags/Java/"/>
+    
+    <category term="反射" scheme="http://www.surpass.org.cn/tags/%E5%8F%8D%E5%B0%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在SpringBoot项目中使用拦截器进行相关操作</title>
+    <link href="http://www.surpass.org.cn/2020/12/15/springboot-make-interceptor/"/>
+    <id>http://www.surpass.org.cn/2020/12/15/springboot-make-interceptor/</id>
+    <published>2020-12-15T07:16:33.000Z</published>
+    <updated>2020-12-15T08:38:46.329Z</updated>
+    
+    
+    <summary type="html">本文主要对SpringBoot中如何使用拦截器实现权限控制进行记录和说明</summary>
+    
+    
+    
+    <category term="Java" scheme="http://www.surpass.org.cn/categories/Java/"/>
+    
+    <category term="SpringBoot" scheme="http://www.surpass.org.cn/categories/Java/SpringBoot/"/>
+    
+    
+    <category term="Java" scheme="http://www.surpass.org.cn/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="http://www.surpass.org.cn/tags/SpringBoot/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -420,60 +466,6 @@
     
     
     <category term="Java" scheme="http://www.surpass.org.cn/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用WebMagic框架实现Java爬虫Demo</title>
-    <link href="http://www.surpass.org.cn/2020/05/14/webMagic-crawler-demo/"/>
-    <id>http://www.surpass.org.cn/2020/05/14/webMagic-crawler-demo/</id>
-    <published>2020-05-14T03:05:07.000Z</published>
-    <updated>2020-12-03T12:21:51.952Z</updated>
-    
-    
-    <summary type="html">使用WebMagic做一个爬虫demo爬取51job职位信息，并保存在数据库中</summary>
-    
-    
-    
-    <category term="Java" scheme="http://www.surpass.org.cn/categories/Java/"/>
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/categories/Java/SpringBoot/"/>
-    
-    <category term="WebMagic" scheme="http://www.surpass.org.cn/categories/Java/SpringBoot/WebMagic/"/>
-    
-    <category term="爬虫" scheme="http://www.surpass.org.cn/categories/Java/SpringBoot/WebMagic/%E7%88%AC%E8%99%AB/"/>
-    
-    
-    <category term="Java" scheme="http://www.surpass.org.cn/tags/Java/"/>
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/tags/SpringBoot/"/>
-    
-    <category term="爬虫" scheme="http://www.surpass.org.cn/tags/%E7%88%AC%E8%99%AB/"/>
-    
-    <category term="WebMagic" scheme="http://www.surpass.org.cn/tags/WebMagic/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Bootstrap组件进行表单校验</title>
-    <link href="http://www.surpass.org.cn/2020/05/10/bootstrap-validator/"/>
-    <id>http://www.surpass.org.cn/2020/05/10/bootstrap-validator/</id>
-    <published>2020-05-10T07:13:57.000Z</published>
-    <updated>2020-12-03T12:08:41.332Z</updated>
-    
-    
-    <summary type="html">使用BootStrap进行表单校验</summary>
-    
-    
-    
-    <category term="前端" scheme="http://www.surpass.org.cn/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="BootStrap" scheme="http://www.surpass.org.cn/categories/%E5%89%8D%E7%AB%AF/BootStrap/"/>
-    
-    
-    <category term="前端" scheme="http://www.surpass.org.cn/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="BootStrap" scheme="http://www.surpass.org.cn/tags/BootStrap/"/>
     
   </entry>
   
