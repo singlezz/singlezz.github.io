@@ -6,7 +6,7 @@
   <link href="http://www.surpass.org.cn/atom.xml" rel="self"/>
   
   <link href="http://www.surpass.org.cn/"/>
-  <updated>2020-12-21T12:30:57.525Z</updated>
+  <updated>2021-01-15T09:22:17.907Z</updated>
   <id>http://www.surpass.org.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>教你如何使用策略模式</title>
+    <link href="http://www.surpass.org.cn/2021/01/15/Strategy-Pattern/"/>
+    <id>http://www.surpass.org.cn/2021/01/15/Strategy-Pattern/</id>
+    <published>2021-01-15T07:52:38.000Z</published>
+    <updated>2021-01-15T09:22:17.907Z</updated>
+    
+    
+    <summary type="html">教你如何使用策略模式，在SpringBoot中应用策略模式做决策</summary>
+    
+    
+    
+    <category term="Java" scheme="http://www.surpass.org.cn/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="http://www.surpass.org.cn/tags/Java/"/>
+    
+    <category term="设计模式" scheme="http://www.surpass.org.cn/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>腾讯云搭建Easy-Mock对接Element-UI提供数据支持</title>
@@ -443,29 +464,6 @@
     
     
     <category term="正则" scheme="http://www.surpass.org.cn/tags/%E6%AD%A3%E5%88%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何实现一个实时更新的进度条</title>
-    <link href="http://www.surpass.org.cn/2020/05/27/real-time-progress-bar/"/>
-    <id>http://www.surpass.org.cn/2020/05/27/real-time-progress-bar/</id>
-    <published>2020-05-27T05:33:04.000Z</published>
-    <updated>2020-12-03T12:26:15.850Z</updated>
-    
-    
-    <summary type="html">SpringBoot项目如何实现一个实时更新的进度条</summary>
-    
-    
-    
-    <category term="Java" scheme="http://www.surpass.org.cn/categories/Java/"/>
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/categories/Java/SpringBoot/"/>
-    
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/tags/SpringBoot/"/>
-    
-    <category term="BootStrap" scheme="http://www.surpass.org.cn/tags/BootStrap/"/>
     
   </entry>
   
