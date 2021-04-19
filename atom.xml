@@ -6,7 +6,7 @@
   <link href="http://www.surpass.org.cn/atom.xml" rel="self"/>
   
   <link href="http://www.surpass.org.cn/"/>
-  <updated>2021-04-08T01:37:50.316Z</updated>
+  <updated>2021-04-19T10:45:31.366Z</updated>
   <id>http://www.surpass.org.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Robo3T中批量操作数据</title>
+    <link href="http://www.surpass.org.cn/2021/04/19/mongo-bulkModifyData/"/>
+    <id>http://www.surpass.org.cn/2021/04/19/mongo-bulkModifyData/</id>
+    <published>2021-04-19T07:38:54.000Z</published>
+    <updated>2021-04-19T10:45:31.366Z</updated>
+    
+    
+    <summary type="html">测试环境中为添加测试数据对MongoDB进行批量操作</summary>
+    
+    
+    
+    <category term="MongoDB" scheme="http://www.surpass.org.cn/categories/MongoDB/"/>
+    
+    
+    <category term="MongoDB" scheme="http://www.surpass.org.cn/tags/MongoDB/"/>
+    
+    <category term="Robo3T" scheme="http://www.surpass.org.cn/tags/Robo3T/"/>
+    
+  </entry>
   
   <entry>
     <title>记录一次让我懵逼的沟通</title>
@@ -31,9 +52,9 @@
     <category term="MongoDB" scheme="http://www.surpass.org.cn/categories/MongoDB/"/>
     
     
-    <category term="杂谈" scheme="http://www.surpass.org.cn/tags/%E6%9D%82%E8%B0%88/"/>
-    
     <category term="MongoDB" scheme="http://www.surpass.org.cn/tags/MongoDB/"/>
+    
+    <category term="杂谈" scheme="http://www.surpass.org.cn/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
@@ -429,29 +450,6 @@
     <id>http://www.surpass.org.cn/2020/06/09/SpringBoot-rabbitmq2/</id>
     <published>2020-06-09T06:26:00.000Z</published>
     <updated>2020-12-03T12:19:25.201Z</updated>
-    
-    
-    <summary type="html">如何在windows本地安装RabbitMQ并使用Springboot联合RabbitMQ做一个Demo</summary>
-    
-    
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/categories/SpringBoot/"/>
-    
-    <category term="RabbitMQ" scheme="http://www.surpass.org.cn/categories/SpringBoot/RabbitMQ/"/>
-    
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/tags/SpringBoot/"/>
-    
-    <category term="RabbitMQ" scheme="http://www.surpass.org.cn/tags/RabbitMQ/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Springboot使用RabbitMQ看这几篇就够了(配置篇)！</title>
-    <link href="http://www.surpass.org.cn/2020/06/08/SpringBoot-rabbitmq/"/>
-    <id>http://www.surpass.org.cn/2020/06/08/SpringBoot-rabbitmq/</id>
-    <published>2020-06-08T02:19:15.000Z</published>
-    <updated>2020-12-03T12:19:07.209Z</updated>
     
     
     <summary type="html">如何在windows本地安装RabbitMQ并使用Springboot联合RabbitMQ做一个Demo</summary>
