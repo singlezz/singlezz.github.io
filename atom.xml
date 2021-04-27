@@ -6,7 +6,7 @@
   <link href="http://www.surpass.org.cn/atom.xml" rel="self"/>
   
   <link href="http://www.surpass.org.cn/"/>
-  <updated>2021-04-27T09:18:29.870Z</updated>
+  <updated>2021-04-27T09:28:30.322Z</updated>
   <id>http://www.surpass.org.cn/</id>
   
   <author>
@@ -21,17 +21,21 @@
     <link href="http://www.surpass.org.cn/2021/04/27/quartz/"/>
     <id>http://www.surpass.org.cn/2021/04/27/quartz/</id>
     <published>2021-04-27T01:30:58.000Z</published>
-    <updated>2021-04-27T09:18:29.870Z</updated>
+    <updated>2021-04-27T09:28:30.322Z</updated>
     
     
     <summary type="html">记录Quartz定时任务框架的学习过程，对知识进行整理，学习SpringBoot集成Quartz做动态定时</summary>
     
     
     
-    <category term="-- Quartz -- SpringBoot" scheme="http://www.surpass.org.cn/categories/Quartz-SpringBoot/"/>
+    <category term="SpringBoot" scheme="http://www.surpass.org.cn/categories/SpringBoot/"/>
+    
+    <category term="Quartz" scheme="http://www.surpass.org.cn/categories/SpringBoot/Quartz/"/>
     
     
-    <category term="-- Quartz -- SpringBoot" scheme="http://www.surpass.org.cn/tags/Quartz-SpringBoot/"/>
+    <category term="SpringBoot" scheme="http://www.surpass.org.cn/tags/SpringBoot/"/>
+    
+    <category term="Quartz" scheme="http://www.surpass.org.cn/tags/Quartz/"/>
     
   </entry>
   
