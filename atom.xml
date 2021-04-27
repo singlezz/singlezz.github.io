@@ -6,7 +6,7 @@
   <link href="http://www.surpass.org.cn/atom.xml" rel="self"/>
   
   <link href="http://www.surpass.org.cn/"/>
-  <updated>2021-04-19T10:45:31.366Z</updated>
+  <updated>2021-04-27T09:18:29.870Z</updated>
   <id>http://www.surpass.org.cn/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录Quartz定时任务框架的学习过程(一)</title>
+    <link href="http://www.surpass.org.cn/2021/04/27/quartz/"/>
+    <id>http://www.surpass.org.cn/2021/04/27/quartz/</id>
+    <published>2021-04-27T01:30:58.000Z</published>
+    <updated>2021-04-27T09:18:29.870Z</updated>
+    
+    
+    <summary type="html">记录Quartz定时任务框架的学习过程，对知识进行整理，学习SpringBoot集成Quartz做动态定时</summary>
+    
+    
+    
+    <category term="-- Quartz -- SpringBoot" scheme="http://www.surpass.org.cn/categories/Quartz-SpringBoot/"/>
+    
+    
+    <category term="-- Quartz -- SpringBoot" scheme="http://www.surpass.org.cn/tags/Quartz-SpringBoot/"/>
+    
+  </entry>
   
   <entry>
     <title>Robo3T中批量操作数据</title>
@@ -427,29 +446,6 @@
     <id>http://www.surpass.org.cn/2020/06/11/SpringBoot-rabbitmq3/</id>
     <published>2020-06-11T08:00:47.000Z</published>
     <updated>2020-12-03T12:19:43.661Z</updated>
-    
-    
-    <summary type="html">如何在windows本地安装RabbitMQ并使用Springboot联合RabbitMQ做一个Demo</summary>
-    
-    
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/categories/SpringBoot/"/>
-    
-    <category term="RabbitMQ" scheme="http://www.surpass.org.cn/categories/SpringBoot/RabbitMQ/"/>
-    
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/tags/SpringBoot/"/>
-    
-    <category term="RabbitMQ" scheme="http://www.surpass.org.cn/tags/RabbitMQ/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Springboot使用RabbitMQ看这几篇就够了(模式详解篇)！</title>
-    <link href="http://www.surpass.org.cn/2020/06/09/SpringBoot-rabbitmq2/"/>
-    <id>http://www.surpass.org.cn/2020/06/09/SpringBoot-rabbitmq2/</id>
-    <published>2020-06-09T06:26:00.000Z</published>
-    <updated>2020-12-03T12:19:25.201Z</updated>
     
     
     <summary type="html">如何在windows本地安装RabbitMQ并使用Springboot联合RabbitMQ做一个Demo</summary>
