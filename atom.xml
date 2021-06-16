@@ -6,7 +6,7 @@
   <link href="http://www.surpass.org.cn/atom.xml" rel="self"/>
   
   <link href="http://www.surpass.org.cn/"/>
-  <updated>2021-04-27T09:43:16.724Z</updated>
+  <updated>2021-06-16T05:11:17.285Z</updated>
   <id>http://www.surpass.org.cn/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自写一个生成ID的工具类</title>
+    <link href="http://www.surpass.org.cn/2021/06/16/idutil/"/>
+    <id>http://www.surpass.org.cn/2021/06/16/idutil/</id>
+    <published>2021-06-16T03:17:34.000Z</published>
+    <updated>2021-06-16T05:11:17.285Z</updated>
+    
+    
+    <summary type="html">自写一个生成ID的工具类</summary>
+    
+    
+    
+    <category term="Java" scheme="http://www.surpass.org.cn/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="http://www.surpass.org.cn/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>记录Quartz定时任务框架的学习过程(一)</title>
@@ -441,29 +460,6 @@
     <category term="Java" scheme="http://www.surpass.org.cn/tags/Java/"/>
     
     <category term="SpringCloud" scheme="http://www.surpass.org.cn/tags/SpringCloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Springboot使用RabbitMQ看这几篇就够了(模式案例篇)！</title>
-    <link href="http://www.surpass.org.cn/2020/06/11/SpringBoot-rabbitmq3/"/>
-    <id>http://www.surpass.org.cn/2020/06/11/SpringBoot-rabbitmq3/</id>
-    <published>2020-06-11T08:00:47.000Z</published>
-    <updated>2020-12-03T12:19:43.661Z</updated>
-    
-    
-    <summary type="html">如何在windows本地安装RabbitMQ并使用Springboot联合RabbitMQ做一个Demo</summary>
-    
-    
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/categories/SpringBoot/"/>
-    
-    <category term="RabbitMQ" scheme="http://www.surpass.org.cn/categories/SpringBoot/RabbitMQ/"/>
-    
-    
-    <category term="SpringBoot" scheme="http://www.surpass.org.cn/tags/SpringBoot/"/>
-    
-    <category term="RabbitMQ" scheme="http://www.surpass.org.cn/tags/RabbitMQ/"/>
     
   </entry>
   
