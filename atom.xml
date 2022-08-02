@@ -6,7 +6,7 @@
   <link href="http://www.surpass.org.cn/atom.xml" rel="self"/>
   
   <link href="http://www.surpass.org.cn/"/>
-  <updated>2022-08-02T08:31:32.626Z</updated>
+  <updated>2022-08-02T11:13:44.829Z</updated>
   <id>http://www.surpass.org.cn/</id>
   
   <author>
@@ -21,13 +21,10 @@
     <link href="http://www.surpass.org.cn/2022/08/02/dynamicExcel/"/>
     <id>http://www.surpass.org.cn/2022/08/02/dynamicExcel/</id>
     <published>2022-08-02T02:27:57.000Z</published>
-    <updated>2022-08-02T08:31:32.626Z</updated>
+    <updated>2022-08-02T11:13:44.829Z</updated>
     
     
-      
-      
-    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h1&gt;&lt;p&gt;一个表中的数据来源于多个其他系统的导出表，其中的特点就是大多数的字段都是一样的（可能导出的表头不一样），只有部分少数字段是每个系统自己独有的</summary>
-      
+    <summary type="html">EasyExcel实现公共列和动态列的复杂表头解析和存表结构</summary>
     
     
     
